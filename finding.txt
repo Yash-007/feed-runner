@@ -1,0 +1,5 @@
+
+1. DOM attributes — searched every element under main for any attribute containing urn:li:activity. I only found it inside comment container IDs (replaceableComment_urn:li:comment:(urn:li:activity:...)) for two other posts already scrolled past — not on Ankur Saxena's card itself.
+2. Anchor hrefs — checked all <a href> in the feed for /posts/ or /feed/update/; the only matches were company-page links from ad cards (/company/.../posts/), nothing with an activity ID.
+
+LinkedIn's newer feed UI uses hashed/obfuscated CSS clens instead of embedding the real post ID in the card — so there was nothing valid to extract. collect.md explicitly says "If you truly cannot find the ID, set post_url to null — do NOT guess a URL," so I left it null rather than fabricate a link.
