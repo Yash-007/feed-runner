@@ -3,21 +3,34 @@ READ-ONLY task: do not like, react, comment, connect, follow, or click anything
 that posts or changes state. Only read and scroll. (The one exception is the "…"
 menu Copy-link fallback below, which does not change state.)
 
+MY NICHE: tech, AI, and startups/business.
+
 ## HOW TO READ THE PAGE
 Extract from the page's text and DOM, NOT from screenshots. Use get_page_text /
 read_page for content, and read DOM attributes directly for links and counts.
 Screenshots are a last resort only if a field is otherwise unreadable.
 
-## WHAT TO DO
-1. Scroll the feed slowly and human-paced (pause between scrolls, don't jump).
-   Collect up to 1 posts, then stop.
-2. Before extracting a post's text, click its "…see more" so you capture the
-   FULL text, not the truncated preview.
-3. Skip promoted/sponsored posts and pure job-listing cards — I only want
-   organic posts from people.
-4. Deduplicate: if the same post appears twice (reshares, feed refresh), keep it once.
+## PER-POST FLOW — gate BEFORE doing the expensive extraction
+For each post as you scroll, apply these gates in order. The moment a post fails
+a gate, skip it and move to the next — do NOT extract its remaining fields.
 
-## FIELDS TO EXTRACT PER POST
+GATE 1 — mechanical (cheap, needs no reading):
+  - Read only the timestamp and the reaction count.
+  - Skip if age_minutes > 360.
+  - Skip if reactions < 150.
+  - Skip promoted/sponsored posts and pure job-listing cards.
+
+GATE 2 — relevance (needs the post text):
+  - Expand "…see more" and read the full post text.
+  - Judge: is this on my niche (tech / AI / indian startups/business)?
+  - Skip if it's off-niche, a personal-life update, or something I'd have
+    nothing sharp to add to.
+
+Only for posts that clear BOTH gates: extract the full field set below.
+Collect up to {{1}} posts that pass, then stop. Deduplicate — if the same post
+appears twice (reshares, feed refresh), keep it once.
+
+## FIELDS TO EXTRACT (only for posts that passed both gates)
 
 - post_url: resolve in this order, stop at the first that works:
   (a) Check the OUTERMOST post container's attributes (data-urn, data-id) for
@@ -32,8 +45,8 @@ Screenshots are a last resort only if a field is otherwise unreadable.
         "urn:li:activity:{ID}". The timestamp often links to the permalink even
         when no other card element carries the ID.
   (c) If still not found, open the post's "…" overflow menu and use "Copy link
-      to post"; read the resolved URL. (This is read-only — it does not post or
-      change state.) Keep this human-paced; it's a fallback, not the default.
+      to post"; read the resolved URL. (This is read-only — it does not change
+      state.) Keep this human-paced; it's a fallback, not the default.
   Construct/return: https://www.linkedin.com/feed/update/urn:li:activity:{ID}/
   Only if ALL THREE fail, set post_url to null. Never guess or fabricate a URL.
 
@@ -45,7 +58,7 @@ Screenshots are a last resort only if a field is otherwise unreadable.
   (put in "reshared_text"); if there's no added commentary, content is "".
 - reshared_text: original post text if this is a reshare, else null.
 - reactions: total reactions as an integer. Parse LinkedIn's shorthand —
-  "1.2K" -> 1200, "3.4K" -> 3400, "1M" -> 1000000, strip commas. If none, 0.
+  "1.2K" -> 1200, "3.4K" -> 3400, "1M" -> 1000000, strip commas.
 - comments: total comments as an integer, same parsing. If none, 0.
 - age_minutes: convert the post's timestamp to minutes.
   "45m" -> 45, "2h" -> 120, "1d" -> 1440, "3w" -> 30240. Round to nearest minute.
