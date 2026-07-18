@@ -1,6 +1,7 @@
 You are collecting posts from my LinkedIn feed into structured JSON. This is a
 READ-ONLY task: do not like, react, comment, connect, follow, or click anything
-that posts or changes state. Only read and scroll.
+that posts or changes state. Only read and scroll. (The one exception is the "…"
+menu Copy-link fallback below, which does not change state.)
 
 ## HOW TO READ THE PAGE
 Extract from the page's text and DOM, NOT from screenshots. Use get_page_text /
@@ -17,10 +18,25 @@ Screenshots are a last resort only if a field is otherwise unreadable.
 4. Deduplicate: if the same post appears twice (reshares, feed refresh), keep it once.
 
 ## FIELDS TO EXTRACT PER POST
-- post_url: build from the activity ID. Each card has a "urn:li:activity:{ID}"
-  in a DOM attribute (e.g. data-urn, or the timestamp link's href). Extract the
-  ID and construct: https://www.linkedin.com/feed/update/urn:li:activity:{ID}/
-  If you truly cannot find the ID, set post_url to null — do NOT guess a URL.
+
+- post_url: resolve in this order, stop at the first that works:
+  (a) Check the OUTERMOST post container's attributes (data-urn, data-id) for
+      "urn:li:activity:{ID}" — this lives on the top-level card wrapper, NOT on
+      inner comment containers (those hold comment URNs, ignore them).
+  (b) Locate the post's TIMESTAMP, then read its attributes for the activity ID:
+      - To FIND it: use read_page (accessibility tree) and look for the header
+        element whose label reads like "N hours/days ago", OR match the visible
+        text pattern \d+\s*(m|h|d|w|mo|yr) in the card header (just after the
+        author name/headline). It may be a <time> tag or an <a> wrapping that text.
+      - Once found, read THAT element's href and data- attributes for
+        "urn:li:activity:{ID}". The timestamp often links to the permalink even
+        when no other card element carries the ID.
+  (c) If still not found, open the post's "…" overflow menu and use "Copy link
+      to post"; read the resolved URL. (This is read-only — it does not post or
+      change state.) Keep this human-paced; it's a fallback, not the default.
+  Construct/return: https://www.linkedin.com/feed/update/urn:li:activity:{ID}/
+  Only if ALL THREE fail, set post_url to null. Never guess or fabricate a URL.
+
 - author_name
 - author_headline: the line under the author's name (their title/tagline).
 - post_type: one of text / reshare / image / poll / article / video.
