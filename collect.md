@@ -11,23 +11,19 @@ read_page for content, and read DOM attributes directly for links and counts.
 Screenshots are a last resort only if a field is otherwise unreadable.
 
 ## PER-POST FLOW — gate BEFORE doing the expensive extraction
-For each post as you scroll, apply these gates in order. The moment a post fails
-a gate, skip it and move to the next — do NOT extract its remaining fields.
+For each post as you scroll, apply this gate. The moment a post fails it,
+skip it and move to the next — do NOT extract its remaining fields.
 
 GATE 1 — mechanical (cheap, needs no reading):
   - Read only the timestamp and the reaction count.
-  - Skip if age_minutes > 360.
-  - Skip if reactions < 150.
+  - Skip if age_minutes > 1000
+  - Skip if reactions < 120.
   - Skip promoted/sponsored posts and pure job-listing cards.
 
-GATE 2 — relevance (needs the post text):
-  - Expand "…see more" and read the full post text.
-  - Judge: is this on my niche (tech / AI / indian startups/business)?
-  - Skip if it's off-niche, a personal-life update, or something I'd have
-    nothing sharp to add to.
+No relevance/content judgment needed — if a post clears Gate 1, collect it.
 
-Only for posts that clear BOTH gates: extract the full field set below.
-Collect up to {{1}} posts that pass, then stop. Deduplicate — if the same post
+Only for posts that clear the gate: extract the full field set below.
+Collect up to {{10}} posts that pass, then stop. Deduplicate — if the same post
 appears twice (reshares, feed refresh), keep it once.
 
 ## FIELDS TO EXTRACT (only for posts that passed both gates)
