@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484231319896358912/",
     "author_name": "VENKATA SAI MALLIK JAY ADITYA",
     "author_headline": "SDE Intern @ Amazon | Codeforces Candidate Master (Max 1938) | LeetCode Guardian (Max 2240) | CodeChef 4⭐ (Max 1961) | B.Tech CSE @ IIITDM Jabalpur",
@@ -12,6 +13,7 @@
     "collected_at": "2026-07-18T22:32:01Z"
   },
   {
+    "id": 2,
     "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484307132331393024/",
     "author_name": "Khan Hyder Abdulkareem",
     "author_headline": "CodeForces (Candidate Master - 1910 max) | CodeChef (4star - 1983 max) | IICPC Regionals | Reliance Foundation Scholar | Secretary @ WEC Algorithms | Member @ IEEE | NITK '28 | BTech-Civil",
@@ -24,7 +26,8 @@
     "collected_at": "2026-07-19T00:00:00Z"
   },
   {
-    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484313863526629376/",
+    "id": 3,
+    "post_url": "https://www.linkedin.com/posts/ichoabr2026-olympiads-chemistry-share-7484313863526629376-W8bi/",
     "author_name": "Homi Bhabha Centre for Science Education (HBCSE), TIFR",
     "author_headline": null,
     "post_type": "image",
@@ -36,7 +39,8 @@
     "collected_at": "2026-07-19T00:00:00Z"
   },
   {
-    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484411885333962752/",
+    "id": 4,
+    "post_url": "https://www.linkedin.com/posts/alexhormozi_share-7484411885333962752-WDhF/",
     "author_name": "Alex Hormozi",
     "author_headline": "Founder Acquisition.com, Co-Founder Skool.com. Get your free scaling roadmap",
     "post_type": "image",
@@ -48,7 +52,8 @@
     "collected_at": "2026-07-19T00:00:00Z"
   },
   {
-    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484455055518187521/",
+    "id": 5,
+    "post_url": "https://www.linkedin.com/posts/shahidx05_consistency-continues-in-2026-happy-share-7484455055518187521-XqsU/",
     "author_name": "Shahid Khan",
     "author_headline": "B.Tech IT'28 || 1100+@LeetCode Problems || Leetcode Knight @2080 max-Rating || Pupil @Codeforces || 3⭐ ⭐⭐at @CodeChef || 6Kyu @Atcoder || 1000+ @GFG Problems ||C++ || DSA || Competitive programmer || Full-Stack Developer",
     "post_type": "image",
@@ -60,7 +65,8 @@
     "collected_at": "2026-07-19T00:00:00Z"
   },
   {
-    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7484269404705239040/",
+    "id": 6,
+    "post_url": "https://www.linkedin.com/posts/akshat-jain-iit_most-people-dont-quit-because-the-work-is-share-7484269404705239040-0FGJ/",
     "author_name": "Akshat Jain",
     "author_headline": "SWE @ Microsoft | 75K+ LinkedIn | Tech, AI and Marketing | Codeforces",
     "post_type": "image",
@@ -70,5 +76,44 @@
     "comments": 17,
     "age_minutes": 900,
     "collected_at": "2026-07-19T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "post_url": "https://www.linkedin.com/posts/ipenetikarthik_careercomeback-upscjourney-leetcode-share-7484422684160827392-f_9M/",
+    "author_name": "Peneti Karthik",
+    "author_headline": "𝐓𝐡𝐞 𝐈𝐧𝐝𝐢𝐚𝐧 | Python Developer | Backend Development | SQL | Mechanical Engineer | UPSC CSE Journey",
+    "post_type": "text",
+    "content": "After four years of UPSC preparation, I am making a determined comeback to software development.\n\nThose four years were not wasted.\n\nThey taught me discipline, patience, consistency, resilience, critical thinking and the ability to remain focused during uncertainty.\n\nToday, I solved my first LeetCode problem. ✅\n\nIt may appear to be only one problem on the screen, but for me, it represents a much bigger beginning.\n\nI am restarting my software journey, but I am not starting from zero.\n\nI am returning with:\n\n✓ Greater discipline\n✓ More maturity\n✓ Stronger problem-solving ability\n✓ Better focus\n✓ A clearer understanding of long-term consistency\n✓ The determination to build a successful career in software\n\nUPSC preparation strengthened my mindset. Now, I am applying that same commitment to Python, data structures, algorithms, backend development and practical software projects.\n\nThis journey will not be about achieving everything in one day.\n\nIt will be about improving one concept at a time, solving one problem at a time and becoming better every day.\n\nToday: 1 problem solved\nNext milestone: 10\nThen: 50\nAnd eventually: hundreds\n\nThis is more than the beginning of my LeetCode journey.\n\nThis is my comeback to software development. 🚀\n\nI may be restarting, but I am returning stronger, wiser and more disciplined.\n\n#CareerComeback #UPSCJourney #LeetCode #DSA #ProblemSolving #PythonDeveloper #BackendDevelopment #SoftwareDevelopment #CodingJourney #100DaysOfCode #Consistency #Discipline #Resilience #GrowthMindset #LearningInPublic",
+    "reshared_text": null,
+    "reactions": 155,
+    "comments": 9,
+    "age_minutes": 780,
+    "collected_at": "2026-07-19T02:00:00Z"
+  },
+  {
+    "id": 8,
+    "post_url": "https://www.linkedin.com/posts/kumark1_dsa-rating-coding-share-7484509046541062145-CyIO/",
+    "author_name": "Kumar K (Karan)",
+    "author_headline": "SDE @ Amazon(Prv) | All India Rank 12 in Google CodeJam'21 | 1558 students of mine have cracked 20+ LPA | Mentored 1500+ students | World Rank 368 in Google Kickstart",
+    "post_type": "text",
+    "content": "I sincerely request Indian college students to stop beating Jiangly and Tourist in every CodeForces Contest😭👏💀😂\n\n#dsa #rating #coding #leetcode #codeforces",
+    "reshared_text": null,
+    "reactions": 1107,
+    "comments": 26,
+    "age_minutes": 360,
+    "collected_at": "2026-07-19T02:00:00Z"
+  },
+  {
+    "id": 9,
+    "post_url": "https://www.linkedin.com/posts/amisha-paliwal_google-googleai-hackathon-share-7484510860103634944-00xt/",
+    "author_name": "Amisha Paliwal",
+    "author_headline": "🏆 Winner, Google's Agentic AI Hackathon 2025|2nd runner up Google Gen AI exchange hackathon 2025| Passionate about AI ML | CSE Sophomore @ LNMIIT | Python • C++|Competitive Programing",
+    "post_type": "image",
+    "content": "\"Congratulations! You're In!\"\n\nFor a few minutes, it felt like I was going to London.\n\nLast week, I opened my inbox to find that I had been selected for the 2026 Google Student AI Hackathon – London.\n\nSeeing those words was surreal.\nFor someone passionate about building AI applications, this wasn't just another hackathon. It was an opportunity to collaborate with talented students from around the world, learn from Google engineers, and build at Google's London office.\n\nThen reality hit.\n\nThe acceptance came just 10 days before the event, leaving almost no practical window to obtain a UK visa from India. While a Super Priority visa exists, its cost is simply out of reach for many students.\n\nSo after earning the opportunity...\nI had to turn it down. That was the hardest part.\n\nThis isn't a post about disappointment or blame.\nSometimes, even after you've earned an opportunity, practical constraints can get in the way. In my case, the timeline simply wasn't enough to complete the visa process and make the trip possible.\n\nI'm genuinely grateful to Google for selecting me from such a talented pool of applicants. Being selected itself is something I'll always be proud of, and I hope everyone attending the hackathon has an incredible experience.\n\nTalent can open the door.\nSometimes, timing is what decides whether you can walk through it\n\n#Google #GoogleAI #Hackathon #ArtificialIntelligence #StudentDeveloper #WomenInTech #Tech #Innovation #India",
+    "reshared_text": null,
+    "reactions": 1624,
+    "comments": 37,
+    "age_minutes": 420,
+    "collected_at": "2026-07-19T02:00:00Z"
   }
 ]

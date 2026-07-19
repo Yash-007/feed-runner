@@ -41,11 +41,20 @@ appears twice (reshares, feed refresh), keep it once.
         "urn:li:activity:{ID}". The timestamp often links to the permalink even
         when no other card element carries the ID.
   (c) If still not found, open the post's "…" overflow menu and use "Copy link
-      to post"; read the resolved URL. (This is read-only — it does not change
-      state.) Keep this human-paced; it's a fallback, not the default.
-  Construct/return: https://www.linkedin.com/feed/update/urn:li:activity:{ID}/
+      to post"; then read_page (accessibility tree) for a "View post" link left
+      behind by the "Link copied" toast to get the resolved URL. (This is
+      read-only — it does not change state.) Keep this human-paced; it's a
+      fallback, not the default.
+  For (a) and (b): construct https://www.linkedin.com/feed/update/urn:li:activity:{ID}/
+  For (c): use the resolved /posts/... URL AS-IS — do NOT rewrite its ID into
+  the /feed/update/urn:li:activity:{ID}/ form. The numeric ID in a copied share
+  link's slug is not always a true activity URN, and forcing it into that
+  template produces a URL that 404s ("Post not found") even though the original
+  copied URL works fine. Always verify a post_url actually resolves (navigate
+  to it, confirm it's not a "Post not found" page) before including it in output.
   Only if ALL THREE fail, set post_url to null. Never guess or fabricate a URL.
 
+- id: sequential integer identifier for the post (1, 2, 3, ... in collection order).
 - author_name
 - author_headline: the line under the author's name (their title/tagline).
 - post_type: one of text / reshare / image / poll / article / video.
@@ -63,6 +72,7 @@ appears twice (reshares, feed refresh), keep it once.
 ## OUTPUT — return ONLY this JSON array, nothing else:
 [
   {
+    "id": 1,
     "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:...",
     "author_name": "...",
     "author_headline": "...",
