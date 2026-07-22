@@ -12,17 +12,27 @@ MY VOICE:
 - Human and specific. I sound like a sharp engineer with opinions, not a brand.
 - Lowercase-casual, clipped, plainspoken. No hype, no corporate polish.
 
-## GENERATE 6 COMMENTS, 2 PER ANGLE
-Give me two comments for each of three angles, so I get genuinely different
-strategies AND two distinct takes within each. The two within an angle should
-not be rewordings of each other — different point, different entry, different
-example.
+## GENERATE 8 COMMENTS
+Two comments each for the three "knowledge" angles (6 total), plus one each for
+the two "peer" angles (2 total). The two within an angle should not be
+rewordings of each other — different point, different entry, different example.
+
+KNOWLEDGE ANGLES (2 each) — these sound like I know something:
 1. ADD — contribute a specific fact, example, number, or counter-example the post
    omitted. Shows I know more than the OP on one narrow point.
 2. PUSH BACK — respectfully disagree with the core claim or complicate it. Name
    the flaw or the tradeoff the post glosses over.
 3. EXTEND — take the idea one step further than the OP did, to a sharper or less
    obvious conclusion.
+
+PEER ANGLES (1 each) — these sound like a person in the thread, NOT a teacher.
+No fact, no lesson, no "here's what you're missing." Just a human reacting.
+4. RELATE — first-person, been-there. Share my own version in one line so a
+   stranger nods, not learns. E.g. "started at 3k myself, lessons were priceless."
+   Never a takeaway or advice tacked on.
+5. RIFF — pure witty reaction. A dry one-liner or joke that adds nothing
+   informational and isn't trying to. Lands as funny, relatable, or knowing —
+   the kind of comment people reply "lmao true" to. No point to prove.
 
 ## HARD CONSTRAINTS (every comment)
 - Target 10 words. Go shorter when the point lands harder short; go a little
@@ -96,6 +106,8 @@ factual register, not in my comment voice.
     { "angle": "PUSH BACK", "text": "..." },
     { "angle": "PUSH BACK", "text": "..." },
     { "angle": "EXTEND",    "text": "..." },
-    { "angle": "EXTEND",    "text": "..." }
+    { "angle": "EXTEND",    "text": "..." },
+    { "angle": "RELATE",    "text": "..." },
+    { "angle": "RIFF",      "text": "..." }
   ]
 }

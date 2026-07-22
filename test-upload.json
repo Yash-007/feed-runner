@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "post_url": "https://www.linkedin.com/posts/sama_gpt-6-launch-activity-7490000000000000001-TEST",
+    "author_name": "Sam Altman",
+    "summary": "OpenAI announces GPT-6 with claimed 10x reasoning improvements, native memory across sessions, and enterprise agent orchestration built in.",
+    "comments": [
+      { "angle": "ADD", "text": "the memory feature quietly changes the data retention story. enterprise legal teams will read this closely." },
+      { "angle": "ADD", "text": "benchmark table omits cost per token. 10x reasoning at what multiple of price?" },
+      { "angle": "PUSH BACK", "text": "every launch claims 10x. the eval suite is picked after the model is trained." },
+      { "angle": "EXTEND", "text": "native orchestration means the agent-framework startups just became features." },
+      { "angle": "RELATE", "text": "we migrated to the last 'memory' beta and rolled back in two weeks. state sync across sessions is genuinely hard." },
+      { "angle": "RIFF", "text": "gpt-6 remembers everything. my prod incidents included." }
+    ]
+  },
+  {
+    "id": 2,
+    "post_url": "https://www.linkedin.com/posts/satyanadella_quantum-azure-activity-7490000000000000002-TEST",
+    "author_name": "Satya Nadella",
+    "summary": "Microsoft claims a fault-tolerant quantum milestone with its Majorana chip, saying practical quantum advantage for chemistry workloads arrives within 24 months.",
+    "comments": [
+      { "angle": "ADD", "text": "the nature paper behind this has a corrections section longer than the abstract. worth reading before repeating the claim." },
+      { "angle": "PUSH BACK", "text": "'within 24 months' has been the quantum industry's answer for a decade." },
+      { "angle": "PUSH BACK", "text": "fault-tolerant at 8 qubits. chemistry workloads need thousands. the gap is the whole story." },
+      { "angle": "EXTEND", "text": "real bet: lock in pharma R&D budgets now, deliver compute later. azure playbook again." },
+      { "angle": "RELATE", "text": "sat in a quantum vendor pitch last quarter. slide 3 was applications, slides 4-40 were caveats." },
+      { "angle": "RIFF", "text": "quantum advantage is always two years away. superposition of timelines." }
+    ]
+  },
+  {
+    "id": 3,
+    "post_url": "https://www.linkedin.com/posts/reidhoffman_ai-jobs-labor-activity-7490000000000000003-TEST",
+    "author_name": "Reid Hoffman",
+    "summary": "Reid Hoffman argues AI will create more jobs than it destroys, citing historical automation waves and a new study on augmentation vs replacement in knowledge work.",
+    "comments": [
+      { "angle": "ADD", "text": "the cited study measures task augmentation, not employment. those are different claims wearing the same hat." },
+      { "angle": "ADD", "text": "previous waves took a generation to rebalance. the transition cost is the part optimists skip." },
+      { "angle": "PUSH BACK", "text": "'history says jobs come back' assumes the displaced and the hired are the same people. they never are." },
+      { "angle": "EXTEND", "text": "the interesting question isn't job count, it's wage distribution. augmentation concentrates value at the top of the skill curve." },
+      { "angle": "RELATE", "text": "my team is 30% smaller than 2024 and ships more. nobody was 'replaced by ai' on paper." },
+      { "angle": "RIFF", "text": "ai will create jobs. mostly for people writing posts about whether ai creates jobs." }
+    ]
+  }
+]
