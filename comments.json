@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "post_url": "https://www.linkedin.com/posts/neha-jain-279b80118_you-will-earn-30-lakh-over-the-next-5-years-ugcPost-7484801299830550528-25iZ/",
+    "author_name": "Neha Jain",
+    "summary": "Ad for an SDE Career Tracker, framed as a 1.5cr earnings gap between two same-college grads decided in 14 weeks before placements.",
+    "comments": [
+      { "angle": "ADD", "text": "30 lpa fresher roles number a few hundred nationally. the funnel, not the sheet, decides." },
+      { "angle": "ADD", "text": "esops in that 1.8cr are paper. most never vest past a down round." },
+      { "angle": "PUSH BACK", "text": "the 1.5cr math assumes he never switches jobs. one hop resets your whole curve." },
+      { "angle": "PUSH BACK", "text": "survivorship framing. 1500 buyers, and we only hear from the placed ones." },
+      { "angle": "EXTEND", "text": "the real system was starting placement prep in year two, not the tracker." },
+      { "angle": "EXTEND", "text": "compounding cuts both ways: a wrong 30 lpa team stalls you faster than 6 lpa." },
+      { "angle": "RELATE", "text": "watched a batchmate out-earn me 3x. wasn't the sheet, it was one referral." },
+      { "angle": "RIFF", "text": "every third post on my feed is now a career tracker with a crore-shaped headline." }
+    ]
+  },
+  {
+    "id": 2,
+    "post_url": "https://www.linkedin.com/posts/rohangoyal16_from-bhai-aaj-wali-post-pe-5-likes-bhi-ugcPost-7484809138468921344-9Vy3/",
+    "author_name": "Rohan Goyal",
+    "summary": "Delhivery SWE celebrates hitting 100K LinkedIn followers, crediting consistent posting of interview experiences, roadmaps, and resources over one viral moment.",
+    "comments": [
+      { "angle": "ADD", "text": "linkedin's algorithm rewards dwell time, not likes. that's why cheat sheets outperform milestones." },
+      { "angle": "ADD", "text": "100k followers converts to maybe 2k real readers. reach is mostly ghost audience." },
+      { "angle": "PUSH BACK", "text": "showing up daily works until everyone does it. the feed is saturated now." },
+      { "angle": "PUSH BACK", "text": "helping people and farming engagement aren't the same goal. the second usually wins." },
+      { "angle": "EXTEND", "text": "the next 100k won't come from posting. it comes from a product behind it." },
+      { "angle": "EXTEND", "text": "audience is rented, not owned. one policy change and the 100k evaporates." },
+      { "angle": "RELATE", "text": "posted to 4 likes for a year straight. the silence phase is the real one." },
+      { "angle": "RIFF", "text": "'bhai 5 likes bhi nahi aaye' is the true origin story of every 100k post." }
+    ]
+  },
+  {
+    "id": 3,
+    "post_url": "https://www.linkedin.com/posts/pawan-kumar-chandana-a90b6514_vikram1-missionaagaman-missionaccomplished-ugcPost-7484314238744715264-7Sf9/",
+    "author_name": "Pawan Kumar Chandana",
+    "summary": "Skyroot CEO celebrates Vikram-1 reaching orbit on its maiden attempt and a congratulatory call from PM Modi.",
+    "comments": [
+      { "angle": "ADD", "text": "orbit on a maiden flight is rare. spacex needed four falcon 1 tries." },
+      { "angle": "ADD", "text": "vikram-1 is fully private indian hardware, not an isro handoff. that's the real milestone." },
+      { "angle": "PUSH BACK", "text": "the modi call gets the headline, but recurring launch cadence is what proves a company." },
+      { "angle": "PUSH BACK", "text": "one orbital success isn't a business yet. cost per kg to leo is the scoreboard." },
+      { "angle": "EXTEND", "text": "hard part starts now: reliability across ten flights, not celebration after one." },
+      { "angle": "EXTEND", "text": "india's launch market is tiny. skyroot lives or dies on foreign smallsat contracts." },
+      { "angle": "RELATE", "text": "grew up watching isro launches on doordarshan. a private one hits different." },
+      { "angle": "RIFF", "text": "modi calling before your own investors do is a very indian success metric." }
+    ]
+  },
+  {
+    "id": 4,
+    "post_url": "https://www.linkedin.com/posts/arun-anbuvel_google-newbeginnings-careerjourney-share-7484635935834279936-6pHe/",
+    "author_name": "Arun A C",
+    "summary": "Announces joining Google as a Senior Software Engineer.",
+    "comments": [
+      { "angle": "ADD", "text": "senior at google is l5, the level where scope stops being handed to you." },
+      { "angle": "ADD", "text": "external senior hires ramp slower than the title suggests. the codebase is the real interview." },
+      { "angle": "PUSH BACK", "text": "the title is the easy part. staying senior in google's stack rank is the job." },
+      { "angle": "PUSH BACK", "text": "prestige logos plateau careers too. big scope often lives at smaller companies." },
+      { "angle": "EXTEND", "text": "first 90 days decide your next promo. pick the project nobody wants." },
+      { "angle": "EXTEND", "text": "google senior is a floor now, not a ceiling. the interesting work is defining what's next." },
+      { "angle": "RELATE", "text": "joined a faang as senior once. spent month one just finding the build command." },
+      { "angle": "RIFF", "text": "senior at google means you now get paged instead of pinged." }
+    ]
+  },
+  {
+    "id": 5,
+    "post_url": "https://www.linkedin.com/posts/sahilm14_excited-to-share-that-our-team-earned-%F0%9D%9F%AD%F0%9D%98%80%F0%9D%98%81-ugcPost-7484803815859257344-88x5/",
+    "author_name": "Sahil Mehta",
+    "summary": "Team won 1st globally in Mastercard's 2026 Intern Innovation Challenge against 653 interns, building MasterGuard, a fraud-recognition tool.",
+    "comments": [
+      { "angle": "ADD", "text": "fraud detection is a data-access problem, not a demo problem. mastercard already has the graph." },
+      { "angle": "ADD", "text": "653 interns, 36 teams means most winners are decided by the pitch, not the code." },
+      { "angle": "PUSH BACK", "text": "scam detection tools die on false positives. one blocked real payment loses the user." },
+      { "angle": "PUSH BACK", "text": "hackathon wins rarely ship. the constraint is compliance, not creativity." },
+      { "angle": "EXTEND", "text": "the win worth chasing is a return offer, not the trophy." },
+      { "angle": "EXTEND", "text": "cross-timezone teamwork is the actual skill here. that transfers, masterguard won't." },
+      { "angle": "RELATE", "text": "won an intern hackathon once. the demo worked exactly twice, both on stage." },
+      { "angle": "RIFF", "text": "653 interns and every deck opened with 'leveraging ai to combat fraud'." }
+    ]
+  },
+  {
+    "id": 6,
+    "post_url": "https://www.linkedin.com/posts/sandeep-jain-_share-7483766078892859395-mi-U/",
+    "author_name": "Sandeep Jain",
+    "summary": "GeeksforGeeks founder reshares a programming joke: a true programmer makes the same mistake half a dozen times, not twice.",
+    "comments": [
+      { "angle": "ADD", "text": "half a dozen is the free tier. senior devs repeat it across three companies." },
+      { "angle": "ADD", "text": "the same bug six times usually means the abstraction is wrong, not the engineer." },
+      { "angle": "PUSH BACK", "text": "funny, but repeating a mistake six times is a process gap, not a personality trait." },
+      { "angle": "PUSH BACK", "text": "seniors don't repeat mistakes less. they build guardrails so juniors can't repeat them." },
+      { "angle": "EXTEND", "text": "the goal isn't zero mistakes. it's making new ones instead of old ones." },
+      { "angle": "EXTEND", "text": "linters and CI turned this joke obsolete. the machine catches your sixth mistake now." },
+      { "angle": "RELATE", "text": "made the same off-by-one for years. it's basically muscle memory now." },
+      { "angle": "RIFF", "text": "half a dozen is rookie numbers. i've got a bug with its own git blame streak." }
+    ]
+  },
+  {
+    "id": 7,
+    "post_url": "https://www.linkedin.com/posts/aastha-singh-a88014366_feeling-normal-to-share-that-ive-joined-ugcPost-7484566806611980288-8zVn/",
+    "author_name": "Aastha Singh",
+    "summary": "GATE-qualified engineer announces joining Hindustan Unilever as an Executive Trainee in Supply Chain, with a light take on entering corporate life.",
+    "comments": [
+      { "angle": "ADD", "text": "hul's supply chain trainee track is one of india's oldest leadership pipelines. real gem." },
+      { "angle": "ADD", "text": "supply chain make means factory floor first. the mba crowd underrates that grounding." },
+      { "angle": "PUSH BACK", "text": "monday mornings aren't the shift. losing the freedom to think unstructured is." },
+      { "angle": "PUSH BACK", "text": "the 'student life over' framing is backwards. trainee years are the most forgiving you'll get." },
+      { "angle": "EXTEND", "text": "the trainees who win treat the first factory posting as leverage, not exile." },
+      { "angle": "EXTEND", "text": "fmcg ops teaches constraint math no coding job will. that compounds later." },
+      { "angle": "RELATE", "text": "the jump from negotiable deadlines to KPIs is a real personality change. felt it." },
+      { "angle": "RIFF", "text": "'feeling normal to share' is the most honest opening line on this whole platform." }
+    ]
+  },
+  {
+    "id": 8,
+    "post_url": "https://www.linkedin.com/posts/nithya-s-41b6591b4_salesforce-newbeginnings-careergrowth-share-7483180262382673920-teF0/",
+    "author_name": "Nithya S",
+    "summary": "Announces starting as a Technical Support Engineer at Salesforce.",
+    "comments": [
+      { "angle": "ADD", "text": "support engineering is underrated. you see more production failures in a month than devs see in a year." },
+      { "angle": "ADD", "text": "tse at salesforce is the fastest path to reading real distributed-system incidents cold." },
+      { "angle": "PUSH BACK", "text": "'amazing culture' is what everyone types before their first on-call weekend." },
+      { "angle": "PUSH BACK", "text": "support roles get typecast fast. plan the exit into dev on day one." },
+      { "angle": "EXTEND", "text": "the engineers who use support as a launchpad document every recurring bug they touch." },
+      { "angle": "EXTEND", "text": "customer-facing debugging teaches communication that pure coders never build. that's the real edge." },
+      { "angle": "RELATE", "text": "did support early in my career. still the fastest i ever learned a system." },
+      { "angle": "RIFF", "text": "dream job energy right up until the first sev1 ticket at 2am." }
+    ]
+  },
+  {
+    "id": 9,
+    "post_url": "https://www.linkedin.com/posts/muneer-ashraf-13170b182_happy-to-share-that-ive-been-promoted-to-ugcPost-7484351439339823104-WEa5/",
+    "author_name": "Muneer Ashraf",
+    "summary": "Announces promotion to Assistant Manager, Talent Acquisition at Park+, thanking mentors and team.",
+    "comments": [
+      { "angle": "ADD", "text": "ta at a growth startup means you're the reason it scales or stalls. real leverage." },
+      { "angle": "ADD", "text": "recruiter promotions track hiring volume. worth naming the roles you actually filled." },
+      { "angle": "PUSH BACK", "text": "assistant manager often means more reqs, same headcount. the title outpaces the support." },
+      { "angle": "PUSH BACK", "text": "internal promo is great until the market resets titles. portable skills beat the ladder." },
+      { "angle": "EXTEND", "text": "the recruiters who last move from filling reqs to fixing why people leave." },
+      { "angle": "EXTEND", "text": "ta is becoming half analytics. the ones who learn the funnel math get pulled into strategy." },
+      { "angle": "RELATE", "text": "got the assistant manager bump once. new title, same laptop, double the reqs." },
+      { "angle": "RIFF", "text": "recruiter gets promoted, still can't find where the good candidates are hiding." }
+    ]
+  },
+  {
+    "id": 10,
+    "post_url": "https://www.linkedin.com/posts/when-youre-looking-for-a-new-book-to-read-share-7484698927498350593-VMNX/",
+    "author_name": "freeCodeCamp",
+    "summary": "Promotes a course on building a book recommender using an LLM and Python, covering vector search, zero-shot classification, and sentiment analysis.",
+    "comments": [
+      { "angle": "ADD", "text": "vector search is the whole trick here. the llm is just the last mile." },
+      { "angle": "ADD", "text": "a good friend's rec beats this because they know context no embedding captures." },
+      { "angle": "PUSH BACK", "text": "recommenders don't fail on the model. they fail on cold start and thin data." },
+      { "angle": "PUSH BACK", "text": "zero-shot classification sounds clean, drifts hard on niche genres in practice." },
+      { "angle": "EXTEND", "text": "build this once and you've built 80% of any rag product. same primitives." },
+      { "angle": "EXTEND", "text": "the hard version isn't recommending books, it's explaining why. that's the sellable feature." },
+      { "angle": "RELATE", "text": "built a recommender once. it confidently recommended the same three books to everyone." },
+      { "angle": "RIFF", "text": "the best book recommender is still a friend with strong opinions and no vector db." }
+    ]
+  },
+  {
+    "id": 11,
+    "post_url": "https://www.linkedin.com/posts/diya-gharia-25a430256_with-no-background-in-finance-i-randomly-share-7484088514008043520-HliE/",
+    "author_name": "Diya Gharia",
+    "summary": "BITS Pilani grad announces joining JPMorgan Chase full-time as a Junior Analyst, reflecting on entering finance with no prior background.",
+    "comments": [
+      { "angle": "ADD", "text": "gcb emea from a non-finance background is common. banks train the finance, hire the aptitude." },
+      { "angle": "ADD", "text": "the deck-building and client-call fluency is the real product of that first year, not the models." },
+      { "angle": "PUSH BACK", "text": "'randomly stepped in' undersells it. bits pilani plus jpmc is not a random draw." },
+      { "angle": "PUSH BACK", "text": "no-background works at analyst level. it's a ceiling later when the technical cohort catches up." },
+      { "angle": "EXTEND", "text": "the analysts who last pick a product to own early. generalist curiosity plateaus at vp." },
+      { "angle": "EXTEND", "text": "finance rewards pattern recognition across deals. that's a two-year grind, not an aptitude." },
+      { "angle": "RELATE", "text": "switched fields with zero background once. the imposter phase is real and it passes." },
+      { "angle": "RIFF", "text": "'randomly stepped into jpmc from bits' is doing olympic lifting on the word randomly." }
+    ]
+  },
+  {
+    "id": 12,
+    "post_url": null,
+    "author_name": "Kriti Jaiswal",
+    "summary": "ServiceNow SDE-2 shares a Cisco hiring post bundled with referral links, a hackathon, an AI tool plug, and a paid DSA/HLD/LLD cohort call.",
+    "comments": [
+      { "angle": "ADD", "text": "code with cisco is a real pipeline, but the linked cohort plug is the actual ask here." },
+      { "angle": "ADD", "text": "these bundled hiring posts convert because scarcity, not because the roles are special." },
+      { "angle": "PUSH BACK", "text": "one post, five links, and somehow the cisco job is the least important one." },
+      { "angle": "PUSH BACK", "text": "'connect for guidance' from strangers rarely converts to referrals. warm intros still win." },
+      { "angle": "EXTEND", "text": "the real skill this teaches is spotting which linkedin post is an ad." },
+      { "angle": "EXTEND", "text": "when hiring posts and course sales merge, the incentive isn't your job. it's the booking." },
+      { "angle": "RELATE", "text": "clicked a 'guidance' link like this once. went straight to a calendly for a paid call." },
+      { "angle": "RIFF", "text": "found the actual job somewhere between link three and the cohort booking." }
+    ]
+  },
+  {
+    "id": 13,
+    "post_url": "https://www.linkedin.com/posts/sathish-kumar-6678007_after-a-great-29-yrs-at-meta-i-have-decided-share-7484584768504938496-RnO9/",
+    "author_name": "Sathish Kumar",
+    "summary": "ASIC engineer announces leaving Meta after 2.9 years to return to Broadcom's APD division, citing MTIA experience at Meta.",
+    "comments": [
+      { "angle": "ADD", "text": "mtia is meta's in-house ai silicon. that experience is exactly why broadcom wants him back." },
+      { "angle": "ADD", "text": "asic talent is moving toward custom ai chips. broadcom's apd is where that money is." },
+      { "angle": "PUSH BACK", "text": "boomerang hires usually mean the first exit was for comp, not fit. nothing wrong with that." },
+      { "angle": "PUSH BACK", "text": "leaving meta mid-mtia is a bet the chip ships elsewhere faster. big call." },
+      { "angle": "EXTEND", "text": "the real signal: hardware engineers now job-hop like software. loyalty premium is gone." },
+      { "angle": "EXTEND", "text": "custom silicon is the next talent war. broadcom rehiring meta people is the opening shot." },
+      { "angle": "RELATE", "text": "went back to an old company once. the boomerang move is quietly underrated." },
+      { "angle": "RIFF", "text": "2.9 years then a 'second innings'. cricket metaphors are load-bearing in indian tech." }
+    ]
+  },
+  {
+    "id": 14,
+    "post_url": "https://www.linkedin.com/posts/ananya-sharma-8251b1288_linkedin-linkedinlife-liet2026-ugcPost-7484654871988551680-Ezai/",
+    "author_name": "Ananya Sharma",
+    "summary": "LinkedIn SWE intern's team won the 'Dream Big' category at the 2026 India Intern Hackathon, building Signal, an AI career-discovery tool.",
+    "comments": [
+      { "angle": "ADD", "text": "an ai discoverability tool built inside linkedin is basically shipping their own north-star metric." },
+      { "angle": "ADD", "text": "intern hackathon winners rarely reach prod, but the pitch skill is the durable takeaway." },
+      { "angle": "PUSH BACK", "text": "'help professionals get discovered' is the exact loop that made the feed noisy. more signal, less signal." },
+      { "angle": "PUSH BACK", "text": "career companions keep launching and dying. the problem is trust, not features." },
+      { "angle": "EXTEND", "text": "the win that matters is the return offer conversation, not the trophy." },
+      { "angle": "EXTEND", "text": "if signal works, it optimizes everyone identically and the edge cancels out." },
+      { "angle": "RELATE", "text": "pitched a whiteboard sketch on stage once. terrifying, and the best kind of fun." },
+      { "angle": "RIFF", "text": "built an ai tool to get discovered, on the one platform already built for that." }
+    ]
+  },
+  {
+    "id": 15,
+    "post_url": "https://www.linkedin.com/posts/rexchao_leetcode-is-a-ruined-platform-in-2026-did-share-7484491707938525184-8Q0K/",
+    "author_name": "Rex Chao",
+    "summary": "Argues LeetCode contests are ruined in 2026: solved 4/4 in 46 min, placed 586th, and found the leaderboard stuffed with new accounts cheating via LLMs.",
+    "comments": [
+      { "angle": "ADD", "text": "codeforces already ip-bans and flags rating spikes. leetcode just chooses not to." },
+      { "angle": "ADD", "text": "fastest growing sport in india: alt-tab. 20 minutes for 4/4 isn't a person." },
+      { "angle": "PUSH BACK", "text": "the platform won't fix this. cheaters inflate the daily active numbers investors read." },
+      { "angle": "PUSH BACK", "text": "blaming leetcode misses it. once companies stopped trusting contest rank, the incentive to police it died." },
+      { "angle": "EXTEND", "text": "llms didn't ruin contests, they exposed that timed puzzles never measured engineering." },
+      { "angle": "EXTEND", "text": "the fix isn't bans. it's proctored or company-run rounds. public leaderboards are done." },
+      { "angle": "RELATE", "text": "did a contest after a break, dropped 500 spots on the same solves. felt this exactly." },
+      { "angle": "RIFF", "text": "161 new accounts, all 4/4 in 20 minutes. we all know the one keyboard shortcut." }
+    ]
+  },
+  {
+    "id": 16,
+    "post_url": "https://www.linkedin.com/posts/himajaamidela_amazon-microsoft-sde-ugcPost-7484624992102502400-t1QR/",
+    "author_name": "HIMAJA AMIDELA",
+    "summary": "New grad received full-time offers from both Microsoft (Associate Consultant) and Amazon (SDE I), and chose Amazon SDE I.",
+    "comments": [
+      { "angle": "ADD", "text": "sde over associate consultant is the right call if you want to stay technical. consulting drifts you out." },
+      { "angle": "ADD", "text": "amazon sde-1 attrition is brutal in year one. the offer is easy, the tenure isn't." },
+      { "angle": "PUSH BACK", "text": "these weren't the same job. picking sde over consulting is a career type, not a ranking." },
+      { "angle": "PUSH BACK", "text": "two offers looks like luck. it's really two teams that already saw you intern well." },
+      { "angle": "EXTEND", "text": "the offer you decline says more than the one you take. you chose builder over advisor." },
+      { "angle": "EXTEND", "text": "first team matters more than first logo. optimize for the manager, not the badge." },
+      { "angle": "RELATE", "text": "turned down a bigger logo for a better team once. still the right call." },
+      { "angle": "RIFF", "text": "two offers, four bullet points, one flex. respect the format." }
+    ]
+  },
+  {
+    "id": 17,
+    "post_url": "https://www.linkedin.com/posts/kesari007_autodesk-is-hiring-freshers-role-software-share-7484563377265057793-kdA3/",
+    "author_name": "Ankur Kesharwani",
+    "summary": "Aggregated fresher hiring post listing SDE openings at Autodesk (Bengaluru), L&T (~6.3 LPA), and Adani (5-9 LPA).",
+    "comments": [
+      { "angle": "ADD", "text": "the ctc gap here is the story. autodesk pays multiples of l&t for the same title." },
+      { "angle": "ADD", "text": "6.3 lpa for a btech software role in 2026 is below inflation-adjusted 2015 pay. that's the real headline." },
+      { "angle": "PUSH BACK", "text": "these listings are engagement bait. real applications go through the careers page, not a like." },
+      { "angle": "PUSH BACK", "text": "'hiring freshers' posts rarely name the recruiter. no accountability, no funnel." },
+      { "angle": "EXTEND", "text": "product companies and legacy firms now share the sde title but not the pay band. pick accordingly." },
+      { "angle": "EXTEND", "text": "the fresher glut is why these coexist. supply lets adani offer 5 lpa and still fill seats." },
+      { "angle": "RELATE", "text": "applied through a list like this once. the careers page had the same role, no middleman." },
+      { "angle": "RIFF", "text": "6,33,333 listed to the last rupee, like that extra 33k is what seals it." }
+    ]
+  },
+  {
+    "id": 18,
+    "post_url": "https://www.linkedin.com/posts/guptanikita16_dear-recruiters-hiring-managers-every-share-7482442770138427393-MslT/",
+    "author_name": "Nikita Gupta",
+    "summary": "Emotional appeal to recruiters to not ghost candidates and lead hiring with empathy, noting the human story behind every resume.",
+    "comments": [
+      { "angle": "ADD", "text": "recruiters ghost because ats floods them with 500 resumes per req. it's throughput, not cruelty." },
+      { "angle": "ADD", "text": "the empathy gap is structural. one recruiter to 40 openings can't personally reply to anyone." },
+      { "angle": "PUSH BACK", "text": "nothing says lead with empathy like a post that'll ghost its own comments." },
+      { "angle": "PUSH BACK", "text": "the ask is backwards. candidates now ghost too, because the process trained them to." },
+      { "angle": "EXTEND", "text": "kindness doesn't scale, systems do. fund a status page, not a feelings post." },
+      { "angle": "EXTEND", "text": "ai screening will make this worse before better. the human was already the bottleneck." },
+      { "angle": "RELATE", "text": "got ghosted after a final round once. the silence just teaches you to ghost back." },
+      { "angle": "RIFF", "text": "this gets 2000 likes from the exact recruiters who'll ghost someone next tuesday." }
+    ]
+  },
+  {
+    "id": 19,
+    "post_url": "https://www.linkedin.com/posts/harsh-wardhan-6485451ba_im-absolutely-thrilled-to-share-that-ive-share-7484263405638340608-KGa3/",
+    "author_name": "Harsh Wardhan",
+    "summary": "Announces joining Amazon as a Software Development Engineer, reflecting on the journey from first 'Hello World'.",
+    "comments": [
+      { "angle": "ADD", "text": "amazon sde-1 lives in the codebase, not hello world. the real onboarding is reading legacy services." },
+      { "angle": "ADD", "text": "the 'hello world to here' arc skips the part that matters: you learned to debug other people's code." },
+      { "angle": "PUSH BACK", "text": "hello world was easy. the real onboarding is one 4000-line file named utils." },
+      { "angle": "PUSH BACK", "text": "the join post is table stakes. the two-year retention post is the one worth writing." },
+      { "angle": "EXTEND", "text": "your first team assignment shapes the next five years more than the offer did." },
+      { "angle": "EXTEND", "text": "the milestone isn't joining. it's the first oncall where you fix prod alone." },
+      { "angle": "RELATE", "text": "still remember my first prod page. hello world did not prepare me for it." },
+      { "angle": "RIFF", "text": "from hello world to here, and 'here' is a wiki last updated in 2019." }
+    ]
+  },
+  {
+    "id": 20,
+    "post_url": "https://www.linkedin.com/posts/mansi-somani-ms_one-year-at-flipkart-a-year-ago-everything-share-7484209108527509504-omtr/",
+    "author_name": "Mansi Somani",
+    "summary": "IIIT-Hyderabad grad reflects on completing one year as an SDE at Flipkart, on growth, mistakes, and settling in.",
+    "comments": [
+      { "angle": "ADD", "text": "year one at flipkart is the big billion days trial by fire. that scale teaches more than any course." },
+      { "angle": "ADD", "text": "the real year-one skill isn't code, it's learning which meeting to skip." },
+      { "angle": "PUSH BACK", "text": "'still learning' at year one is expected. the honest reflection is what you'd unlearn." },
+      { "angle": "PUSH BACK", "text": "one-year posts read like gratitude, but year two is where growth stalls or compounds." },
+      { "angle": "EXTEND", "text": "the engineers who compound pick a system to own by month eighteen. familiarity is the trap." },
+      { "angle": "EXTEND", "text": "comfort at year one is the warning sign, not the milestone. discomfort was the growth." },
+      { "angle": "RELATE", "text": "year one everywhere feels like this. year two is when you find out if you grew." },
+      { "angle": "RIFF", "text": "'still learning, still building' is corporate for please don't pip me." }
+    ]
+  }
+]
