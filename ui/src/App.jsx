@@ -106,6 +106,8 @@ function PostCard({ post, onSaveComment }) {
   )
 }
 
+const STORAGE_KEY = 'feed-runner-comments'
+
 export default function App() {
   const [posts, setPosts] = useState(null)
   const [error, setError] = useState(null)
@@ -149,7 +151,7 @@ export default function App() {
       }
       const warning = canPersist
         ? `Load ${data.length} posts from ${file.name}? This overwrites comments.json.`
-        : `Load ${data.length} posts from ${file.name}? Current data is replaced for this session.`
+        : `Load ${data.length} posts from ${file.name}? This replaces the data saved in this browser.`
       if (!window.confirm(warning)) return
       setError(null)
       setAngleFilter('ALL')
@@ -185,6 +187,17 @@ export default function App() {
       } catch {
         setCanPersist(false)
       }
+      // Static hosting: a previous session may have uploaded/edited data,
+      // stored in localStorage since there is no API to write to
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY)
+        if (stored) {
+          setPosts(JSON.parse(stored))
+          return
+        }
+      } catch {
+        // ignore corrupt/unavailable storage, fall back to bundled data
+      }
       try {
         const r = await fetch('/comments.json')
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
@@ -198,7 +211,15 @@ export default function App() {
 
   const persist = async (next) => {
     setPosts(next)
-    if (!canPersist) return // static hosting: edits stay in memory
+    if (!canPersist) {
+      // static hosting: keep edits across refreshes via localStorage
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+      } catch (e) {
+        setError(`Could not store data in this browser: ${e}`)
+      }
+      return
+    }
     setSaveState('saving')
     try {
       const res = await fetch('/api/comments', {
@@ -303,7 +324,7 @@ export default function App() {
           </button>
         </div>
         <span className={`save-indicator save-${saveState}`}>
-          {!canPersist && <span title="Static hosting: edits stay in this session. Use Download to export.">local only</span>}
+          {!canPersist && <span title="Static hosting: data is saved in this browser only. Use Download to export.">local only</span>}
           {saveState === 'saving' && 'Saving…'}
           {saveState === 'saved' && 'Saved ✓'}
           {saveState === 'error' && 'Save failed'}
